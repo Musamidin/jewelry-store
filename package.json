@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --port 4242",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -19,6 +19,15 @@
     "@angular/platform-browser": "~11.0.9",
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
+    "@ant-design/icons-angular": "^9.0.1",
+    "i": "^0.3.7",
+    "jwt-decode": "^3.1.2",
+    "ng-zorro-antd": "^11.4.2",
+    "ngx-barcode": "^0.3.0",
+    "ngx-bootstrap": "^7.1.0",
+    "ngx-mask": "^12.0.0",
+    "ngx-printer": "^0.9.2",
+    "npm": "^8.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

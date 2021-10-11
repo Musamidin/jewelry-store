@@ -8,9 +8,10 @@ export class StatusPipe implements PipeTransform {
     if (num === 0) {
       return 'Включен';
     }
-    else if (num === 1) {
+    if (num === 1) {
       return 'Отключен';
     }
+    return '';
   }
 
 }

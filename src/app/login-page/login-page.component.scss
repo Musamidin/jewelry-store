@@ -1,0 +1,25 @@
+.login-form {
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.login-form-margin {
+  margin-bottom: 16px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 50%;
+}
+nz-form-item{
+  margin-bottom: 25px;
+  width: 100%;
+  nz-form-control{
+    width: 100%;
+  }
+}

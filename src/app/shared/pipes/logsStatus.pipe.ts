@@ -8,9 +8,10 @@ export class LogsStatusPipe implements PipeTransform {
     if (num === 1) {
       return 'Приход';
     }
-    else if (num === 2) {
+    if (num === 2) {
       return 'Расход';
     }
+    return '';
   }
 
 }
